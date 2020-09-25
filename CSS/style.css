@@ -1,0 +1,61 @@
+
+.content{
+    width: 400px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto 0 auto;
+
+    background-image: url("../Image/bg._cut-photo.jpg");
+}
+.tic_tac_toe{
+    margin-top: 20px;
+}
+.tic_tac_toe_image{
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+}
+.box{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.bg_orange{
+    background-color: chocolate;
+}
+.btn_style{
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+
+}
+.btn_text{
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+.btn_reset{
+    margin: 20px auto;
+    background-color: #F8A31A;
+}
+.tic_tac_toe{
+
+}
+.winner{
+    width: 320px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.text{
+    margin-top: -12px;
+    text-align: center;
+}
+.win_text{
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 50px;
+}
